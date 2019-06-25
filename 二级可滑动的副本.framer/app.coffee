@@ -1123,5 +1123,5 @@ hott = new Layer
 # storyclick.on Events.Click, (e) ->
 # 	story1.visible = true
 	
-
+sf.snapToPage(feed,false)
 	
