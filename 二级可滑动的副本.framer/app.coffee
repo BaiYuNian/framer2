@@ -1125,3 +1125,4 @@ hott = new Layer
 	
 sf.snapToPage(feed,false)
 	
+Framer.Extras.Hints.disable()
