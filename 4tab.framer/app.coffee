@@ -224,23 +224,23 @@ lss = [l1,l2,l3,l22]
 
 l22.states =
 	a:
-		opacity: 1
-		rotation: 90
+		opacity: 0
+		rotation: 0
 		scale: 1
 	b:
 		opacity: 1
 		rotation: 135
-		scale:1
+		scale:1.2
 l22.stateSwitch('a')
 
 for layer in ls
 	layer.states =
 		a:
-			opacity: 0
+			opacity: 1
 			rotation: 0
 		b:
 			opacity: 0
-			rotation: 0
+			rotation: 45
 	layer.stateSwitch('a')
 
 l2.states =
@@ -251,7 +251,7 @@ l2.states =
 	b:
 		opacity: 1
 		rotation: 45
-		scale: 1
+		scale: 1.2
 
 icon.bringToFront()
 icon.opacity = 0
@@ -259,49 +259,28 @@ icon.opacity = 0
 
 ls0 = [l10,l30]
 lss0 = [l10,l20,l30,l220]
-# l10.start = 
-# 	a:
-# 		opacity: 0
-# 	b:
-# 		opacity: 0
-# l30.start = 
-# 	a:
-# 		opacity: 0
-# 	b:
-# 		opacity: 0
 
 l220.states =
 	a:
-		opacity: 1
-		rotation: 90
+		opacity: 0
+		rotation: 0
 		scale: 1
 	b:
 		opacity: 1
 		rotation: 135
-		scale:1
+		scale:1.2
 l220.stateSwitch('a')
 
 for layer in ls0
 	layer.states =
 		a:
-			opacity: 0
+			opacity: 1
 			rotation: 0
 		b:
 			opacity: 0
-			rotation: 0
+			rotation: 45
 	layer.stateSwitch('a')
-	
-# l10.start = 
-# 	a:
-# 		opacity: 0
-# 	b:
-# 		opacity: 0
-# l30.start = 
-# 	a:
-# 		opacity: 0
-# 	b:
-# 		opacity: 0
-		
+
 l20.states =
 	a:
 		opacity: 1
@@ -310,7 +289,7 @@ l20.states =
 	b:
 		opacity: 1
 		rotation: 45
-		scale: 1
+		scale: 1.2
 
 icon0.bringToFront()
 icon0.opacity = 1
